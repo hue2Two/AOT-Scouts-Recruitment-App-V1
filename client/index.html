@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scout Regiment Signup Form</title>
+</head>
+<body>
+
+<h2>Scout Regiment Signup</h2>
+
+<form id="scoutSignup">
+
+    <!-- Section 1: Recruit Information -->
+    <fieldset>
+        <legend>Section 1: Recruit Information</legend>
+        
+        <!-- Name Input -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+        
+        <!-- Date of Birth Input -->
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        <br><br>
+        
+        <!-- Textarea for Reason -->
+        <label for="reason">Why do you want to join?</label>
+        <br>
+        <textarea id="reason" name="reason" rows="4" cols="50" required></textarea>
+    </fieldset>
+
+    <!-- Section 2: Quiz about the Scout Regiment -->
+    <fieldset>
+        <legend>Section 2: Quiz about the Scout Regiment</legend>
+
+        <!-- Question 1 -->
+        <label for="q1">1. Who is the leader of the Scout Regiment during the initial seasons?</label>
+        <input type="text" id="q1" name="q1">
+        <br><br>
+
+        <!-- Question 2 -->
+        <label for="q2">2. What is the symbol of the Scout Regiment?</label>
+        <input type="text" id="q2" name="q2">
+        <br><br>
+
+        <!-- Question 3 -->
+        <label for="q3">3. What is the main objective of the Scout Regiment?</label>
+        <input type="text" id="q3" name="q3">
+        <br><br>
+
+        <!-- Question 4 -->
+        <label for="q4">4. In which district is the Scout Regiment's headquarters located?</label>
+        <input type="text" id="q4" name="q4">
+        <br><br>
+
+        <!-- Question 5 -->
+        <label for="q5">5. Who is known as the 'Humanity's Strongest Soldier' in the Scout Regiment?</label>
+        <input type="text" id="q5" name="q5">
+    </fieldset>
+
+    <br>
+    <input type="submit" value="Submit">
+</form>
+<br>
+<!-- <form  id="quizForm">
+    <p><b>Quiz Information:</b></p> 
+    <br>
+    <label for="hero">Name the hero of the game:</label>
+    <input type="text" id="hero" name="hero">
+    <br>
+    <label for="heroin">Name ther heroin of the game:</label>
+    <input type="text" id="heroin" name="heroin">
+    <br>
+    <label for="eren">Who is the user of the attack titan?</label>
+    <input type="text" id="eren" name="eren">
+    <br>
+    <label for="reiner">Who is the user of the armor titan?</label>
+    <input type="text" id="eren" name="reiner">
+    <br>
+    <label for="armon">Who is the user of the colossal titan?</label>
+    <input type="text" id="eren" name="armon">
+    <br>
+    <button type="submit">submit</button>
+</form> -->
+
+<script src="script.js"></script>
+</body>
+</html>
